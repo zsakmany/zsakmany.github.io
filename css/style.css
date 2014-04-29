@@ -1,0 +1,35 @@
+/* BASES, GENERAL RULES FOR HTML TAGS*/
+*{
+	padding:0;
+	margin:0;
+}
+body{
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+	font-family: 'Exo', 'sans-serif';
+	font-size: 13px;
+}
+h2{
+	font-family: 'Russo One',sans-serif;
+}
+ul{
+    list-style: inherit;
+}
+/* LET'S GET SPECIFIC. START WITH IDS */
+#main{
+    width: 360px;
+    margin: auto;
+}
+
+/* CONTINUE WITH CLASSES */
+.vCentered{
+    display: -webkit-box;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-align: center;
+    display: box;
+    box-align: center;
+}
+li.done{
+    text-decoration: line-through;
+}

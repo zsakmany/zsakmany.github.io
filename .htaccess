@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName Work
+AuthUserFile /var/www/virtual/zsakmany.com/htdocs/.htpasswd
+Require valid-user
