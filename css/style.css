@@ -15,6 +15,11 @@ h2{
 ul{
     list-style: inherit;
 }
+footer{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
 /* LET'S GET SPECIFIC. START WITH IDS */
 #main{
     width: 360px;
